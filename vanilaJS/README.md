@@ -30,7 +30,7 @@ action는 redux에서 함수를 부를때 쓰는 두번째 parameter 또는 argu
 
 <br/>
 
-## `CreateStore`
+## `createStore(reducer)`
 
 createStore는 reducer를 요구한다!
 
@@ -38,13 +38,13 @@ store는 data를 저장해 주는 곳이다.
 
 <br/>
 
-## `dispatch`
+## `dispatch({ key : value })`
 
 Reducer에게 action을 보낸다.
 
 <br/>
 
-## `subsribe`
+## `subscribe()`
 
 data에 변화가 생겼을 때 subscribe 함수를 무조건 실행한다.
 
@@ -52,7 +52,7 @@ data에 변화가 생겼을 때 subscribe 함수를 무조건 실행한다.
 
 ## `getState()`
 
-현재 data의 상태를 출력한다.
+현재 data를 출력한다.
 
 <br/>
 
